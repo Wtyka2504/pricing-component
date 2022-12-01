@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --white: #ffffff;
+    --ghost-white-light: #f1f5fe;
+    --ghost-white: #ecf0fb;
+    --ghost-white-body: #f9faff;
+    --space-cadet: #293356;
+    --cool-grey: #848ead;
+    --coral: #ff8d68;
+    --seashell: #feede8;
+    --lavender-blue: #becdff;
+    --celeste: #a4f3eb;
+    --turquoise-blue: #80fff3;
+    --turquoise: #10d8c4;
+    --periwinkle-crayola: #cfd8ef;
+    font-size: 10px;
+  }
+  body {
+    font-size: 1.6rem;
+    font-family: "Manrope";
+    background: url(/src/assets/bg-pattern.svg) top left/auto 449px no-repeat,
+      var(--white);
+  }
+  @screen desktop {
+    body {
+      background: url(/src/assets/bg-pattern.svg) top left/100% 50% no-repeat,
+        var(--ghost-white-body);
+    }
+  }
+}
+
+@layer components {
+  #root {
+    @apply min-h-screen flex flex-col;
+  }
+}
