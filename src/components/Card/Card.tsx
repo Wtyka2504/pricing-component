@@ -3,7 +3,6 @@ import { pricingPerMonth } from "../../constants/pricing";
 import { ButtonSwitch } from "../Buttons/Switch/ButtonSwitch";
 import { IconCheck } from "../Icons/IconCheck";
 import { RangeSlider } from "../RangeSlider/RangeSlider";
-import style from "./Card.module.css";
 
 type Billing = "yearly" | "monthly";
 

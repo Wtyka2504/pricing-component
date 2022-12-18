@@ -1,4 +1,4 @@
-export const IconSlider = () => {
+export function IconSlider() {
   return (
     <svg xmlns="http://www.w3.org/2000/svg" width="22" height="13">
       <g fill="#80FFF3" fillRule="evenodd">
@@ -6,4 +6,4 @@ export const IconSlider = () => {
       </g>
     </svg>
   );
-};
+}
