@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { pricingPerMonth } from "../../constants/pricing";
 import { ButtonSwitch } from "../Buttons/Switch/ButtonSwitch";
-import { IconCheck } from "../Icons/IconCheck";
+import { IconCheck } from "../CustomIcons/IconCheck";
 import { RangeSlider } from "../RangeSlider/RangeSlider";
 
 type Billing = "yearly" | "monthly";

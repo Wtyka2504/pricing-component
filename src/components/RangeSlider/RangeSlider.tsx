@@ -1,6 +1,6 @@
 import { CSSProperties, useEffect, useRef, useState } from "react";
 import { RangeSliderResult, useRangeSlider } from "../../hooks/useRangeSlider";
-import { IconSlider } from "../Icons/IconSlider";
+import { IconSlider } from "../CustomIcons/IconSlider";
 import style from "./RangeSlider.module.scss";
 
 interface RangeSliderProps {
