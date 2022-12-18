@@ -3,6 +3,9 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "browserslist": [
+    "last 2 versions, not dead, > 0.2%"
+  ],
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",

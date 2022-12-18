@@ -1,24 +1,23 @@
 .wrapper {
   @apply bg-cool-grey rounded-full;
-  --size: 1.4rem;
   box-sizing: content-box;
   display: block;
-  width: calc(2 * var(--size));
-  padding: 0.4rem;
+  width: calc(2.5 * var(--size, 16px));
+  padding: 0.6rem;
   cursor: pointer;
   transition: 250ms ease-in-out background-color;
   &.active {
     @apply bg-space-cadet;
     .circle {
-      left: var(--size);
+      left: calc(100% - var(--size, 16px));
     }
   }
 }
 .circle {
   @apply bg-white rounded-full;
   position: relative;
-  left: 0rem;
-  width: var(--size);
-  height: var(--size);
+  left: 0px;
+  width: var(--size, 16px);
+  height: var(--size, 16px);
   transition: 250ms ease-in-out left;
 }

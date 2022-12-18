@@ -32,10 +32,12 @@ module.exports = {
       desktop: "400px",
     },
     spacing: {
+      0: "0px",
       5: ".5rem",
       8: ".8rem",
       10: "1rem",
       12: "1.2rem",
+      16: "1.6rem",
       24: "2.4rem",
       32: "3.2rem",
       34: "3.4rem",
